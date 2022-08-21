@@ -1,5 +1,6 @@
 @echo off
-setlocal
+SETLOCAL EnableDelayedExpansion
+@rem setlocal
 
 set SSLRELEASE=1.0.x
 set SSLARCH=WIN32
